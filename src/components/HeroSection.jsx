@@ -42,8 +42,8 @@ const HeroSection = () => {
             }
         </section>
         <div className="flex items-center justify-start gap-2 mt-4">
-            <button className='px-10 py-2 font-semibold text-[#FFE457] bg-black' >Contact</button>
-            <button className='px-10 py-2 font-semibold border border-black' >Resume</button>
+            <a href='#contact'  className='px-10 py-2 font-semibold text-[#FFE457] bg-black' >Contact</a>
+            <a href='../assets/AbdulShakoor.pdf' download className='px-10 py-2 font-semibold border border-black' >Resume</a>
         </div>
       </div>
     </section>

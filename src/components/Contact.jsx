@@ -2,7 +2,7 @@ import { svgs } from "./svg";
 
 const Contact = () => {
   return (
-    <div className="py-8 overflow-x-hidden">
+    <div id="contact" className="py-8 overflow-x-hidden">
       <div className="flex item-start justify-start lg:item-center lg:justify-center gap-4 flex-wrap lg:flex-nowrap my-8 w-full">
         <div className="line  basis-1/3 h-[2px] bg-black"></div>
         <h2 className="basis-1/3 text-[24px] lg:text-[120px] font-extrabold">
