@@ -34,7 +34,7 @@ const HeroSection = () => {
             {
                 svgs.map((item) => {
                     return (
-                        <div key={item.id} className='m-2'>
+                        <div key={item.id} className='m-2 hover:scale-110 2s linear'>
                            <a href="#">{item.file}</a> 
                         </div>
                     )

@@ -14,7 +14,7 @@ const Contact = () => {
       <section className="flex mt-4 items-center justify-center">
         {svgs.map((item) => {
           return (
-            <div key={item.id} className="m-2">
+            <div key={item.id} className="m-2 hover:scale-110 2s linear">
               <a href="#">{item.file}</a>
             </div>
           );
@@ -34,9 +34,9 @@ const Contact = () => {
         </div>
       </section>
       <section className="flex items-center justify-center py-2">
-        <div className="flex mx-auto lg:gap-12 flex-wrap pl-14">
-          <p className="font-bold text-2xl">Email :</p>
-          <p className="font-bold text-xl">abduldev1786@gamil.com</p>
+        <div className="flex mx-auto lg:gap-12 flex-wrap lg:pl-14">
+          <p className="font-bold lg:text-2xl">Email :</p>
+          <p className="font-bold lg:text-lg">abduldev1786@gamil.com</p>
         </div>
       </section>
     </div>

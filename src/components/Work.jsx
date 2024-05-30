@@ -66,7 +66,7 @@ const Work = () => {
   
         </div>
         <div className="img basis-3/4 flex items-start justify-end">
-            <img src={slide.image} alt={slide.title} className="shadow-2xl lg:w-2/4"/>
+            <img src={slide.image} alt={slide.title} className="shadow-2xl lg:w-3/4"/>
         </div>
       </div>
       {/* slider */}

@@ -10,3 +10,28 @@ html, body{
     line-height: 1.5;
     scroll-behavior:smooth;
 }
+
+body{
+    cursor: ;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(-60%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+
+.logos-slide{
+    animation: slide 28s linear infinite;
+}
+
+
+.logos:hover .logos-slide{
+    animation-play-state:pause;
+}

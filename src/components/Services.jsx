@@ -38,28 +38,28 @@ const Services = () => {
   <div className="px-4 mx-auto max-w-8xl sm:px-6 lg:px-16">
 
     <div className="grid grid-cols-1 gap-5 mt-12 sm:grid-cols-2 lg:grid-cols-4 lg:mt-8 lg:gap-x-4 ">
-      <div className="transition-all duration-200 bg-white hover:shadow-xl">
+      <div className="transition-all duration-200 bg-white hover:shadow-xl hover:scale-105 2s linear">
         <div className="py-10 px-9">
           <CgDesignmodo size={48} style={{background:"black", color: "#FFE457"}}/>
           <h3 className="mt-8 text-lg font-semibold text-black">UX / UI Design</h3>
           <p className="mt-4 text-base text-gray-600">Crafting intuitive and visually appealing interfaces that ensure a seamless user experience. My designs not only look great but also enhance usability and engagement.</p>
         </div>
       </div>
-      <div className="transition-all duration-200 bg-white hover:shadow-xl">
+      <div className="transition-all duration-200 bg-white hover:shadow-xl hover:scale-105 2s linear">
         <div className="py-10 px-9">
           <SiPayloadcms size={48} style={{background:"black", color: "#FFE457"}}/>
           <h3 className="mt-8 text-lg font-semibold text-black">CMS Development</h3>
           <p className="mt-4 text-base text-gray-600">Empowering you with flexible and scalable content management solutions. Specializing in WordPress,Webflow, Shopify, and Wix, Development in CMS that make content creation and management effortless.</p>
         </div>
       </div>
-      <div className="transition-all duration-200 bg-white hover:shadow-xl">
+      <div className="transition-all duration-200 bg-white hover:shadow-xl hover:scale-105 2s linear">
         <div className="py-10 px-9">
         <RiCodeSSlashFill size={48} style={{background:"black", color: "#FFE457"}}/>
           <h3 className="mt-8 text-lg font-semibold text-black">Front-End Development</h3>
           <p className="mt-4 text-base text-gray-600">Building responsive and dynamic front-end solutions that bring your designs to life. My code is clean, efficient, and optimized for performance across all devices.</p>
         </div>
       </div>
-      <div className="transition-all duration-200 bg-white hover:shadow-xl">
+      <div className="transition-all duration-200 bg-white hover:shadow-xl hover:scale-105 2s linear">
         <div className="py-10 px-9">
         <TbAdjustmentsCode  size={48} style={{background:"black", color: "#FFE457"}}/>
           <h3 className="mt-8 text-lg font-semibold text-black">Back-End Development</h3>
