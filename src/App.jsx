@@ -30,8 +30,8 @@ useEffect(()=>{
 },[cursorPosition])
 
   return (
-    <div className="relative">
-      <div className={`mouse w-16 h-16 lg:w-24 lg:h-24 bg-black rounded-full absolute right-[${cursorPosition.x}px] top-[${cursorPosition.y}px]`}></div>
+    <div className="relative w-full h-full overflow-hidden">
+      <div style={{ left: `${cursorPosition.x}px`, top: `${cursorPosition.y}px` }} className={`mouse w-16 h-16 lg:w-24 lg:h-24 bg-black rounded-full absolute `}></div>
       <Top />
       <HeroSection />
       <LargeText />

@@ -25,6 +25,17 @@ body{
         transform: translateX(0%);
     }
 }
+@keyframes curson{
+    0%{
+        scale:.5;
+    }
+    50%{
+        scale: 1.5;
+    }
+    100%{
+        scale: 1;
+    }
+}
 
 
 .logos-slide{
@@ -34,4 +45,10 @@ body{
 
 .logos:hover .logos-slide{
     animation-play-state:pause;
+}
+.mouse{
+    transform: translate(-50%, -50%);
+    mix-blend-mode: lighten;
+    z-index:-1;
+    animation: curson 8s linear infinite;
 }

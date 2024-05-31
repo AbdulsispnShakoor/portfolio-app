@@ -1,8 +1,19 @@
+import { useGSAP } from '@gsap/react';
 import heroImg from '../assets/images/Group 4.png'
 import { svgs } from './svg';
-
+import gsap from 'gsap';
 
 const HeroSection = () => {
+  useGSAP(() => {
+    gsap.from(".text , .image",{
+        duration: 4,
+        y: 100,
+        opacity: 0,
+        stagger: 0.2,
+        ease: "power3.out",
+        
+    })
+});
   return (
     <section className="flex items-start justify-between gap-4 flex-wrap md:flex-nowrap px-8 lg:px-48 pt-8 lg:-mb-32">
       <div className="text lg:basis-1/2">
@@ -18,7 +29,7 @@ const HeroSection = () => {
           and user satisfaction.
         </p>
       </div>
-      <div className="image lg:basis-1/2">
+      <div className="image lg:basis-1/2 -z-10">
         <img src={heroImg} alt="abdul Shakoor"  className='lg:w-2/3 flex items-center justify-center'/>
       </div>
       <div className="text lg:basis-1/2">
@@ -43,7 +54,7 @@ const HeroSection = () => {
         </section>
         <div className="flex items-center justify-start gap-2 mt-4">
             <a href='#contact'  className='px-10 py-2 font-semibold text-[#FFE457] bg-black' >Contact</a>
-            <a href='../assets/AbdulShakoor.pdf' download className='px-10 py-2 font-semibold border border-black' >Resume</a>
+            <a href='../assets/AbdulShakoor.pdf' download className='px-10 py-2 font-semibold border border-black hover:text-white mix-blend-difference' >Resume</a>
         </div>
       </div>
     </section>
