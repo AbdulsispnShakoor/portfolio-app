@@ -8,7 +8,7 @@ const TechSlider = () => {
           return (
             <div
               key={svg.id}
-              className="w-56   flex gap-3 p-3 logo items-center justify-center hover:scale-150 transition-all 2s linear"
+              className="lg:w-56 flex gap-2 lg:gap-3 p-3 logo items-center justify-center hover:scale-150 transition-all 2s linear"
             >
               <h2> {svg.title} </h2>
               <p> {svg.file}</p>

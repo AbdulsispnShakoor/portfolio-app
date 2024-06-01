@@ -5,7 +5,7 @@ const Work = () => {
   const [slide, setSlide] = useState(slideContant[0]);
   return (
     <>
-      <div className="flex item-start justify-start lg:item-center lg:justify-center gap-4 flex-wrap lg:flex-nowrap my-8 w-full">
+      <div id="Work" className="flex item-start justify-start lg:item-center lg:justify-center gap-4 flex-wrap lg:flex-nowrap my-8 w-full">
         <div className="line  basis-1/3 h-[2px] bg-black"></div>
         <h2 className="basis-1/3 text-[24px] lg:text-[120px] font-extrabold">
           WORK.
@@ -65,7 +65,7 @@ const Work = () => {
             </p>
   
         </div>
-        <div className="img basis-3/4 flex items-start justify-end">
+        <div className="img basis-3/4 flex items-start justify-end hover:scale-105  transition-all 2s ease-linear">
             <img src={slide.image} alt={slide.title} className="shadow-2xl lg:w-3/4"/>
         </div>
       </div>

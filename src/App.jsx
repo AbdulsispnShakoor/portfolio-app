@@ -6,6 +6,7 @@ import Services from "./components/Services"
 import TechSlider from "./components/TechSlider"
 import Top from "./components/Top"
 import Work from "./components/Work"
+import Links from "./components/Links"
 
 
 const App = () => {
@@ -31,7 +32,8 @@ useEffect(()=>{
 
   return (
     <div className="relative w-full h-full overflow-hidden">
-      <div style={{ left: `${cursorPosition.x}px`, top: `${cursorPosition.y}px` }} className={`mouse w-16 h-16 lg:w-24 lg:h-24 bg-black rounded-full absolute `}></div>
+      <Links />
+      <div style={{ left: `${cursorPosition.x}px`, top: `${cursorPosition.y}px` }} className={`mouse w-16 h-16 lg:w-24 lg:h-24 bg-gradient-to-br from-yellow-500 to-yellow-300 rounded-full absolute `}></div>
       <Top />
       <HeroSection />
       <LargeText />
