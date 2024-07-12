@@ -48,7 +48,7 @@ const Services = () => {
       <div className="transition-all duration-200 bg-white hover:shadow-xl hover:scale-105 2s linear">
         <div className="py-10 px-9">
           <SiPayloadcms size={48} style={{background:"black", color: "#FFE457"}}/>
-          <h3 className="mt-8 text-lg font-semibold text-black">CMS Development</h3>
+          <h3 className="mt-8 text-lg font-semibold text-black">CMS Web Development</h3>
           <p className="mt-4 text-base text-gray-600">Empowering you with flexible and scalable content management solutions. Specializing in WordPress,Webflow, Shopify, and Wix, Development in CMS that make content creation and management effortless.</p>
         </div>
       </div>

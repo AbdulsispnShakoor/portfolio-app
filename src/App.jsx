@@ -33,7 +33,7 @@ useEffect(()=>{
   return (
     <div className="relative w-full h-full overflow-hidden">
       <Links />
-      <div style={{ left: `${cursorPosition.x}px`, top: `${cursorPosition.y}px` }} className={`mouse w-16 h-16 lg:w-24 lg:h-24 bg-gradient-to-br from-yellow-500 to-yellow-300 rounded-full absolute `}></div>
+      <div style={{ left: `${cursorPosition.x}px`, top: `${cursorPosition.y}px` }} className={`mouse w-16 h-16 lg:w-24 lg:h-24 bg-gradient-to-br from-yellow-500 to-yellow-300 rounded-full fixed z-50 `}></div>
       <Top />
       <HeroSection />
       <LargeText />
